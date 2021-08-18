@@ -1,0 +1,20 @@
+#File	data/raw_data/ATAC_D0_repl_2_LSD1i_S38_R1_001.fastq.gz	data/raw_data/ATAC_D0_repl_2_LSD1i_S38_R2_001.fastq.gz
+#Total	101291432
+#Matched	39017	0.03852%
+#Name	Reads	ReadsPct
+I7_Nextera_Transposase_1	20203	0.01995%
+I5_Nextera_Transposase_1	18165	0.01793%
+I7_Primer_Nextera_XT_and_Nextera_Enrichment_N708	420	0.00041%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]501	154	0.00015%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	16	0.00002%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507	13	0.00001%
+PhiX_read2_adapter	10	0.00001%
+I5_Primer_Nextera_XT_Index_Kit_v2_S522	9	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]504	9	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	8	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506	3	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S515	2	0.00000%
+TruSeq_Universal_Adapter	2	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]508	1	0.00000%
+I7_Primer_Nextera_XT_and_Nextera_Enrichment_N703	1	0.00000%
+pcr_dimer	1	0.00000%

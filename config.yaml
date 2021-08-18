@@ -1,0 +1,16 @@
+analysis:
+  type: "full"
+trimming:
+  trim: "true"
+  read1: "CTGTCTCTTATACAC"
+  read2: "CTGTCTCTTATACAC"
+  source: "Nextera I5/I7 Transposase 1"
+mapping:
+  gtf: "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.refGene.gtf.gz"
+  fasta: "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromFa.tar.gz"
+  read_length: 50
+  index_genome: "true"
+  genes: "https://sourceforge.net/projects/rseqc/files/BED/Human_Homo_sapiens/hg38_RefSeq.bed.gz/download"
+counting:
+  type: "Unstranded"
+

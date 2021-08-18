@@ -1,0 +1,20 @@
+#File	data/raw_data/ATAC_D8_repl_2_HDACi_S40_R1_001.fastq.gz	data/raw_data/ATAC_D8_repl_2_HDACi_S40_R2_001.fastq.gz
+#Total	93137212
+#Matched	6427	0.00690%
+#Name	Reads	ReadsPct
+I7_Nextera_Transposase_1	3238	0.00348%
+I5_Nextera_Transposase_1	2993	0.00321%
+I7_Primer_Nextera_XT_and_Nextera_Enrichment_N710	148	0.00016%
+PhiX_read2_adapter	7	0.00001%
+Reverse_adapter	7	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]504	5	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506	5	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507	5	0.00001%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]501	4	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	3	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S522	3	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	3	0.00000%
+TruSeq_Universal_Adapter	3	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S515	1	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S521	1	0.00000%
+RNA_PCR_Primer_(RP1)_part_#_15013198	1	0.00000%

@@ -1,0 +1,4 @@
+# raw data
+data/raw_data/*.fastq.gz
+# references
+data/reference*

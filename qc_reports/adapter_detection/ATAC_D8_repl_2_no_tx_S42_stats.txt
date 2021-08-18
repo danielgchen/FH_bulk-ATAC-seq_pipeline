@@ -1,0 +1,13 @@
+#File	data/raw_data/ATAC_D8_repl_2_no_tx_S42_R1_001.fastq.gz	data/raw_data/ATAC_D8_repl_2_no_tx_S42_R2_001.fastq.gz
+#Total	91909488
+#Matched	4497	0.00489%
+#Name	Reads	ReadsPct
+I7_Nextera_Transposase_1	2321	0.00253%
+I5_Nextera_Transposase_1	2019	0.00220%
+I7_Primer_Nextera_XT_and_Nextera_Enrichment_N712	148	0.00016%
+I5_Primer_Nextera_XT_Index_Kit_v2_S516	2	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]501	2	0.00000%
+PhiX_read2_adapter	2	0.00000%
+I5_Primer_Nextera_XT_Index_Kit_v2_S522	1	0.00000%
+I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502	1	0.00000%
+TruSeq_Universal_Adapter	1	0.00000%
