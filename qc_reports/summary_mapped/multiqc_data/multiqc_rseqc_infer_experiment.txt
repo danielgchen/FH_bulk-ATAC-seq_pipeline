@@ -1,0 +1,7 @@
+Sample	pe_sense	pe_antisense	failed
+ATAC_D0_repl_2_HDACi_S37_trimmed_rseqc_strand_specificity	0.4661	0.4574	0.0766
+ATAC_D0_repl_2_LSD1i_S38_trimmed_rseqc_strand_specificity	0.4668	0.464	0.0692
+ATAC_D0_repl_2_no_tx_S39_trimmed_rseqc_strand_specificity	0.469	0.4681	0.0629
+ATAC_D8_repl_2_HDACi_S40_trimmed_rseqc_strand_specificity	0.4644	0.4747	0.0609
+ATAC_D8_repl_2_LSD1i_S41_trimmed_rseqc_strand_specificity	0.473	0.4706	0.0564
+ATAC_D8_repl_2_no_tx_S42_trimmed_rseqc_strand_specificity	0.4685	0.4678	0.0637

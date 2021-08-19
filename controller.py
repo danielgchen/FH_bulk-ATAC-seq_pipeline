@@ -88,13 +88,13 @@ def trim_raw_data(configs):
     # get adapters
     forward = configs['read1']
     reverse = configs['read2']
-    fastqs = glob('data/raw_data/*read1.fastq.gz')
+    fastqs = glob('data/raw_data/*R1_001.fastq.gz')
     for fastq in fastqs:
         # get data
         raw_fastq1 = fastq
-        trimmed_fastq1 = raw_fastq1.replace('raw_data/', 'trimmed_data/').replace('read1', 'trimmed_read1')
-        raw_fastq2 = raw_fastq1.replace('read1', 'read2')
-        trimmed_fastq2 = raw_fastq2.replace('raw_data/', 'trimmed_data/').replace('read2', 'trimmed_read2')
+        trimmed_fastq1 = raw_fastq1.replace('raw_data/', 'trimmed_data/').replace('R1_001', 'trimmed_R1_001')
+        raw_fastq2 = raw_fastq1.replace('R1_001', 'R2_001')
+        trimmed_fastq2 = raw_fastq2.replace('raw_data/', 'trimmed_data/').replace('R2_001', 'trimmed_R2_001')
         log = raw_fastq1.replace('data/raw_data/', 'qc_reports/cutadapt_trimmed/').replace('.fastq.gz', '.cutadapt.out')
         # run commands
         if(configs['trim']=="true"):
@@ -124,6 +124,7 @@ def prep_map_reference(configs):
     run_command(f'gzip -d data/reference/hg38.refGene.gtf.gz', 'UNPACKING REFERENCE GTF')
     run_command(f'wget {fasta_link} -O data/reference/chromFa.tar.gz', 'DOWNLOADING REFERENCE FASTA')
     run_command(f'tar -xzvf data/reference/chromFa.tar.gz -C data/reference/', 'UNPACKING REFERENCE FASTA')
+    run_command(f'mv data/reference/chroms/*.fa data/reference/', 'MOVING UNPACKED FASTA SEQUENCES')
     run_command(f'wget {genes_link} -O data/reference/hg38_RefSeq.bed.gz', 'DOWNLOADING REFERENCE GENES')
     run_command(f'gzip -d data/reference/hg38_RefSeq.bed.gz', 'UNPACKING REFERENCE GENES')
     # index genome
@@ -137,10 +138,10 @@ def map_trimmed_data():
     maps data using star and refGene genome from ucsc hg38
     '''
     # map reads - assuming that each sample has one pair
-    read1_files = sorted(glob('data/trimmed_data/*read1.fastq.gz'))
+    read1_files = sorted(glob('data/trimmed_data/*R1_001.fastq.gz'))
     for read1_file in read1_files:
-        read2_file = read1_file.replace('read1', 'read2')
-        prefix = read1_file.replace('trimmed_data', 'mapped_data').replace('read1.fastq.gz','')
+        read2_file = read1_file.replace('R1_001', 'R2_001')
+        prefix = read1_file.replace('trimmed_data', 'mapped_data').replace('R1_001.fastq.gz','')
         run_command(f'STAR --runThreadN 10 --genomeDir data/reference_STAR/ --readFilesIn {read1_file} {read2_file} --outSAMtype BAM SortedByCoordinate --outBAMsortingThreadN 10 --outFileNamePrefix {prefix} --readFilesCommand gunzip -c --quantMode GeneCounts', 'MAPPING READS')
 
 

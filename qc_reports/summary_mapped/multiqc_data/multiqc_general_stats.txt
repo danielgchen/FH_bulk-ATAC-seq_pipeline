@@ -1,0 +1,7 @@
+Sample	Picard_mqc-generalstats-picard-PERCENT_DUPLICATION	STAR_mqc-generalstats-star-uniquely_mapped_percent	STAR_mqc-generalstats-star-uniquely_mapped
+ATAC_D0_repl_2_HDACi_S37	0.570817	86.87	39853628.0
+ATAC_D0_repl_2_LSD1i_S38	0.556327	87.44	44262005.0
+ATAC_D0_repl_2_no_tx_S39	0.547259	87.12	45592516.0
+ATAC_D8_repl_2_HDACi_S40	0.286813	86.89	40455355.0
+ATAC_D8_repl_2_LSD1i_S41	0.388057	86.64	44377990.0
+ATAC_D8_repl_2_no_tx_S42	0.398606	87.85	40366895.0

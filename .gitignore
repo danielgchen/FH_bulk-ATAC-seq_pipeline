@@ -1,4 +1,8 @@
 # raw data
 data/raw_data/*.fastq.gz
+# trimmed data
+data/trimmed_data/*.fastq.gz
+# mapped data bams
+data/mapped_data/*.bam
 # references
 data/reference*

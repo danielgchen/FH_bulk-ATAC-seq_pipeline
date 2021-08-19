@@ -19671,7 +19671,7 @@
     "config_analysis_dir": [
         "qc_reports/fastqc_raw"
     ],
-    "config_creation_date": "2021-08-18, 00:46",
+    "config_creation_date": "2021-08-18, 20:20",
     "config_git_hash": null,
     "config_intro_text": null,
     "config_report_comment": null,
